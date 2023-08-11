@@ -1,0 +1,7 @@
+sudo apt-get install geany
+sudo apt-get install mesa-utils
+sudo apt-get install freeglut3-dev
+* Si el archivo Ejm con la figura está en la carpeta de documentos para abrirlo se hace:
+cd Documentos
+g++ Ejm.cpp -o gl -lGL -lGLU -lglut
+./gl
